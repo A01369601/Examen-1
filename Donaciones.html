@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="Estilos_LS.css" rel="stylesheet" type="text/css">
+		<script src="Alertas_D.js" type="text/JavaScript"></script>
+	</head>
+	<body background="M6.jpg"><center>
+		<br> <p class="title"> Apoya a el sevidor con una donacion </p> <br>
+		<table class="table" border="5" width="90%"  background="Back M.jpg">
+			<form name="d">
+				<tr>
+					<td> <p class="texto_2">Nombre del donante*</p> </td>
+					<td align="center"> <input name="d1" type="text" class="campo" size="15" maxlength="15" onclick="campo_d1()"> </td>
+				</tr>	
+				<tr>
+					<td> <p class="texto_2">Indica el monto*</p> </td>
+					<td align="center"> <input name="d2" type="number" class="campo" size="15"  min="2" maxlength="15" onclick="campo_d2()"> </td>
+				</tr>	
+				<tr>
+					<td> <p class="texto_2">Indica tu edad*</p> </td>
+					<td align="center"> <input name="d3" type="number" class="campo" step="10" min="0" max="100" onclick="campo_d3()"> </td>
+				</tr>		
+				<tr>
+					<td> <p class="texto_2">Correo electronico</p> </td>
+					<td align="center"> <input name="correo" type="text" class="campo" size="15" maxlength="50"> </td>
+				</tr>
+				<tr>
+					<td><p class="texto_2">Indica tus comentarios o dudas</p></td>
+					<td align="center"><textarea name="comentarios" class="campo" rows="3" style="text-align: left;"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="3">
+					<table width="100%">
+						<tr align="center">
+							<td><input name="b_ejecutar" type="button" class="boton" value="Enviar" onclick="ejecutar()"></td>
+							<td><input name="b2" type="reset" class="boton" value="Borrar" style="background:red;">
+							</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+			</form>
+		</table><br><br>
+        <font class="title"><b>GRACIAS POR TU APOYO!</b></font><br>
+           <img src="Donacion.png" width="300" height="200">
+	</center></body>
+</html>
